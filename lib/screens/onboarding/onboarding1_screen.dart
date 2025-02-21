@@ -46,7 +46,7 @@ class Onboarding1Screen extends StatelessWidget {
               ),
               Center(
                 child: Image.asset(
-                  "assets/badge1.png",
+                  "assets/badge1.png", // badge 1
                   height: 120,
                 ),
               ),

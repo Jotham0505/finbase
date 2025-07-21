@@ -33,20 +33,77 @@ class Onboarding7Screen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                 ),
               ),
-              Center(
-                child: Positioned(
-                  height: 10,
-                  child: Text("2,315.34",
+              Positioned(
+                bottom: 30,
+                left: 70,
+                child: Column(
+                  children: [
+                    Text(
+                      "\n\$2,315.34",
                       style: TextStyle(
                         fontFamily: "FiraSans",
-                        fontSize: 32,
+                        fontSize: 50,
                         fontWeight: FontWeight.w600,
-                        color: Colors.white,
-                      )),
+                        color: Color.fromARGB(255, 251, 232, 157),
+                      ),
+                    ),
+                    Text(
+                      "average monthly spending",
+                      style: TextStyle(
+                        fontFamily: "FiraSans",
+                        fontSize: 16,
+                        color: Colors.white70,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],
-          )
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text(
+            "Overall Monthly Spending",
+            style: TextStyle(
+              fontFamily: "FiraSans",
+              fontSize: 24,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            "In total you spend an average of \$2,315.34 per month across all your accounts. This includes all your expenses, bills, and subscriptions.",
+            style: TextStyle(
+              fontFamily: "FiraSans",
+              fontSize: 16,
+              color: Colors.black,
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text(
+            "Spending Breakdown(monthly)",
+            style: TextStyle(
+              fontFamily: "FiraSans",
+              fontSize: 18,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Container(
+            width: double.infinity,
+            height: 200,
+            decoration: BoxDecoration(
+              color: Color(0xff2E2E2E),
+              borderRadius: BorderRadius.circular(16),
+            ),
+          ),
         ],
       ),
     ));

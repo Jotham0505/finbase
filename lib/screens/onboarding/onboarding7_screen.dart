@@ -98,10 +98,57 @@ class Onboarding7Screen extends StatelessWidget {
           ),
           Container(
             width: double.infinity,
-            height: 200,
+            height: 50,
             decoration: BoxDecoration(
-              color: Color(0xff2E2E2E),
               borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: Color(0xff0B8467)),
+            ),
+            child: TextField(
+              decoration: InputDecoration(
+                filled: true,
+                fillColor: Colors.white,
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(16),
+                  borderSide: BorderSide.none,
+                ),
+                prefixIcon: Icon(Icons.money_outlined),
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            "Don't worry, you can always change this later.",
+            style: TextStyle(
+              fontFamily: "FiraSans",
+              fontSize: 12,
+              color: Colors.grey,
+            ),
+          ),
+          Spacer(),
+          GestureDetector(
+            onTap: () {
+              // nest screen i.e onboarding screen 2
+            },
+            child: Container(
+              height: 44,
+              width: 320,
+              decoration: BoxDecoration(
+                  color: Color(0xFF0B8467),
+                  borderRadius: BorderRadius.circular(10)),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "Set a Goal",
+                    style: TextStyle(
+                        fontFamily: "FiraSans",
+                        color: Colors.white,
+                        fontSize: 16),
+                  ),
+                ],
+              ),
             ),
           ),
         ],

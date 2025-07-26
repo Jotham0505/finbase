@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:finbase/screens/home/home_page_1.dart';
 
 class Onboarding8Screen extends StatelessWidget {
   const Onboarding8Screen({super.key});
@@ -125,7 +126,8 @@ class Onboarding8Screen extends StatelessWidget {
             SizedBox(height: 12),
             GestureDetector(
               onTap: () {
-                // nest screen i.e onboarding screen 2
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomePage1()));
               },
               child: Container(
                 height: 44,
@@ -137,7 +139,7 @@ class Onboarding8Screen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Set a Goal",
+                      "View the Dashboard",
                       style: TextStyle(
                           fontFamily: "FiraSans",
                           color: Colors.white,

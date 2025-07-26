@@ -3,6 +3,7 @@ import 'package:finbase/screens/onboarding/onboarding2_screen.dart';
 import 'package:finbase/screens/onboarding/onboarding3_screen.dart';
 import 'package:finbase/screens/onboarding/onboarding4_screen.dart';
 import 'package:finbase/screens/onboarding/onboarding5_screen.dart';
+import 'package:finbase/screens/onboarding/onboarding6_screen.dart';
 import 'package:finbase/screens/onboarding/onboarding7_screen.dart';
 import 'package:finbase/screens/onboarding/onboarding8_screen.dart';
 import 'package:finbase/screens/splash_screen.dart';
@@ -25,6 +26,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Onboarding8Screen());
+        home: Onboarding4Screen());
   }
 }

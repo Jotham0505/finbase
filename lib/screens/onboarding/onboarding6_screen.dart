@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fl_chart/fl_chart.dart';
 
-class Onboarding5Screen extends StatelessWidget {
-  const Onboarding5Screen({super.key});
+class Onboarding6Screen extends StatelessWidget {
+  const Onboarding6Screen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -39,16 +38,16 @@ class Onboarding5Screen extends StatelessWidget {
               ),
               clipBehavior:
                   Clip.antiAlias, // Ensures child is clipped to border radius
-              child: Image.asset("assets/graph2.png", fit: BoxFit.fill),
+              child: Image.asset("assets/pie.png", fit: BoxFit.fill),
             ),
             SizedBox(
               height: 20,
             ),
             Text(
-              "Food Spending",
+              "Summary Monthly Spending",
               style: TextStyle(
                 fontFamily: "FiraSans",
-                fontSize: 22,
+                fontSize: 23,
                 color: Colors.white,
               ),
             ),
@@ -56,7 +55,7 @@ class Onboarding5Screen extends StatelessWidget {
               height: 12,
             ),
             Text(
-              "Food spending makes up 42% of your monthly spending, with the highest month being April, where you spent 26% more than average.",
+              "Miscellaneous items like vending machines, Amazon.com, and night clubs make up 15% of your spending on a monthly basis",
               style: TextStyle(
                 fontFamily: "FiraSans",
                 fontSize: 16,

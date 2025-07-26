@@ -6,6 +6,7 @@ class Onboarding1Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff2E292E),
       body: Column(
         children: [
           SizedBox(
@@ -60,7 +61,8 @@ class Onboarding1Screen extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: "FiraSans",
                   fontSize: 26,
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w400,
+                  color: Colors.white,
                 ),
               ),
               SizedBox(
@@ -71,6 +73,7 @@ class Onboarding1Screen extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: "FiraSans",
                   fontSize: 16,
+                  color: Colors.white,
                 ),
               ),
               Text(
@@ -78,6 +81,7 @@ class Onboarding1Screen extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: "FiraSans",
                   fontSize: 16,
+                  color: Colors.white,
                 ),
               ),
               Text(
@@ -85,6 +89,7 @@ class Onboarding1Screen extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: "FiraSans",
                   fontSize: 16,
+                  color: Colors.white,
                 ),
               ),
               SizedBox(
@@ -93,9 +98,11 @@ class Onboarding1Screen extends StatelessWidget {
               Text(
                 "Firstly, what should we call you?",
                 style: TextStyle(
-                    fontFamily: "FiraSans",
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600),
+                  fontFamily: "FiraSans",
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.white,
+                ),
               ),
               SizedBox(
                 height: 5,
@@ -107,6 +114,14 @@ class Onboarding1Screen extends StatelessWidget {
                   //controller: controller,
                   //obscureText: isobscure,
                   decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10.0),
+                      borderSide: BorderSide(
+                        color: Color(
+                            0xFF0B8467), // Change this to your desired color
+                        width: 2.0,
+                      ),
+                    ),
                     labelText: "Your name",
                     labelStyle: TextStyle(
                       fontFamily: 'FiraSans',

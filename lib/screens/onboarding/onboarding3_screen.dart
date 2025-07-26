@@ -6,6 +6,7 @@ class Onboarding3Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff2E292E),
       body: Column(
         children: [
           SizedBox(
@@ -29,7 +30,8 @@ class Onboarding3Screen extends StatelessWidget {
                     style: TextStyle(
                         fontFamily: "FiraSans",
                         fontSize: 24,
-                        fontWeight: FontWeight.w600),
+                        fontWeight: FontWeight.w600,
+                        color: Colors.white),
                   ),
                   SizedBox(
                     height: 12,
@@ -39,6 +41,7 @@ class Onboarding3Screen extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: "FiraSans",
                       fontSize: 16,
+                      color: Colors.white,
                     ),
                   ),
                   Text(
@@ -46,6 +49,7 @@ class Onboarding3Screen extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: "FiraSans",
                       fontSize: 16,
+                      color: Colors.white,
                     ),
                   ),
                   Text(
@@ -53,6 +57,7 @@ class Onboarding3Screen extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: "FiraSans",
                       fontSize: 16,
+                      color: Colors.white,
                     ),
                   ),
                   SizedBox(

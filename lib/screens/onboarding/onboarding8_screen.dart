@@ -7,6 +7,7 @@ class Onboarding8Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff2E292E),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
@@ -25,6 +26,7 @@ class Onboarding8Screen extends StatelessWidget {
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
                 fontFamily: "FiraSans",
+                color: Colors.white,
               ),
             ),
             SizedBox(
@@ -36,6 +38,7 @@ class Onboarding8Screen extends StatelessWidget {
                 fontSize: 16,
                 fontWeight: FontWeight.w400,
                 fontFamily: "FiraSans",
+                color: Colors.white70,
               ),
             ),
             SizedBox(
@@ -47,6 +50,7 @@ class Onboarding8Screen extends StatelessWidget {
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
                 fontFamily: "FiraSans",
+                color: Colors.white,
               ),
             ),
             SizedBox(
@@ -68,7 +72,7 @@ class Onboarding8Screen extends StatelessWidget {
                     fontFamily: "FiraSans",
                   ),
                   filled: true,
-                  fillColor: Colors.white,
+                  fillColor: Color(0xff282828),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(16),
                     borderSide: BorderSide.none,
@@ -83,6 +87,7 @@ class Onboarding8Screen extends StatelessWidget {
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
                 fontFamily: "FiraSans",
+                color: Colors.white,
               ),
             ),
             SizedBox(
@@ -98,7 +103,7 @@ class Onboarding8Screen extends StatelessWidget {
               child: TextField(
                 decoration: InputDecoration(
                   filled: true,
-                  fillColor: Colors.white,
+                  fillColor: Color(0xff282828),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(16),
                     borderSide: BorderSide.none,
@@ -119,6 +124,7 @@ class Onboarding8Screen extends StatelessWidget {
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
                 fontFamily: "FiraSans",
+                color: Colors.white,
               ),
             ),
             SizedBox(height: 6),

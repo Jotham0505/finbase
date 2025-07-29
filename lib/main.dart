@@ -1,3 +1,4 @@
+import 'package:finbase/screens/home/home_page_1.dart';
 import 'package:finbase/screens/onboarding/onboarding1_screen.dart';
 import 'package:finbase/screens/onboarding/onboarding2_screen.dart';
 import 'package:finbase/screens/onboarding/onboarding3_screen.dart';
@@ -26,6 +27,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Onboarding8Screen());
+        home: HomePage1());
   }
 }

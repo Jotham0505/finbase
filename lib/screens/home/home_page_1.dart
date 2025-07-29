@@ -66,10 +66,9 @@ class HomePage1 extends StatelessWidget {
         children: [
           SingleChildScrollView(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                SizedBox(
-                  height: 16,
-                ),
+                const SizedBox(height: 16),
                 Center(
                   child: Container(
                     height: 70,
@@ -78,7 +77,7 @@ class HomePage1 extends StatelessWidget {
                       borderRadius: BorderRadius.circular(12),
                       color: const Color(0xff66108E),
                     ),
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "New Goal 🚩",
                         style: TextStyle(
@@ -90,28 +89,49 @@ class HomePage1 extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(
-                  height: 16,
+                const SizedBox(height: 16),
+
+                Container(
+                  width: 320,
+                  child: SizedBox(
+                    height: 19,
+                    child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemCount: 4,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          width: 100,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: Color(0xFF524952),
+                          ),
+                          margin: const EdgeInsets.only(
+                            right: 8,
+                          ),
+                          child: Center(
+                            child: Text(
+                              "Save for a trip  ",
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontFamily: 'FiraSans',
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
                 ),
-                ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  shrinkWrap: true,
-                  physics: const NeverScrollableScrollPhysics(),
-                  itemCount: 5,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      height: 19,
-                      width: 100,
-                      color: Colors.red,
-                    );
-                  },
-                ),
-                SizedBox(height: 600), // placeholder
+
+                const SizedBox(height: 20),
+
+                const SizedBox(height: 600), // placeholder
               ],
             ),
           ),
 
-          // Floating Navigation Bar
+          // ---- Floating Navigation Bar ----
           Align(
             alignment: Alignment.bottomCenter,
             child: Padding(

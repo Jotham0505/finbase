@@ -136,7 +136,7 @@ class HomePage1 extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       itemCount: 1,
                       itemBuilder: (context, index) {
-                        return HomeContainerWidget();
+                        return HomeContainerWidget(); // filler comments
                       },
                     ),
                   ),

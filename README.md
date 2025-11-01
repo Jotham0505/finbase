@@ -30,11 +30,12 @@ Built entirely with **Flutter**, the app uses **custom charts**, **smooth naviga
  <img src="screenshots/finbase5.png" width="200"/>
   <img src="screenshots/finbase6.png" width="200"/>
   <img src="screenshots/finbase7.png" width="200"/>
+  <img src="screenshots/finbase8.png" width="200"/>
   <img src="screenshots/finbase1.png" width="200"/>
   <img src="screenshots/finbase2.png" width="200"/>
   <img src="screenshots/finbase3.png" width="200"/>
   <img src="screenshots/finbase4.png" width="200"/>
-  <img src="screenshots/finbase8.png" width="200"/>
+  
 </p>
 
 > 📸 **Note:** Save all screenshots inside a folder named `screenshots/` in your project root directory.

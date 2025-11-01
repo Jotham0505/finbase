@@ -38,7 +38,6 @@ Built entirely with **Flutter**, the app uses **custom charts**, **smooth naviga
   
 </p>
 
-> 📸 **Note:** Save all screenshots inside a folder named `screenshots/` in your project root directory.
 
 ---
 
@@ -51,11 +50,4 @@ Built entirely with **Flutter**, the app uses **custom charts**, **smooth naviga
 - **State Management:** Provider / Riverpod  
 - **Theme:** Custom Dark Mode (Purple & Teal)  
 
----
 
-## ⚙️ Setup Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/finbase.git
-   cd finbase
